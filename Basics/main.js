@@ -1,3 +1,5 @@
-"use strict";
-let username = 'Raka';
-console.log(username);
+function greet(name: string): string {
+    return `Welcome, ${name}`;
+}
+console.log(greet('Raka'));
+console.log(greet(42));
